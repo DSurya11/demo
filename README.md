@@ -1,5 +1,2 @@
-# demo
-this is demo.
-
-# student
-Surya 
+# simmon game
+this is a simple simon game
