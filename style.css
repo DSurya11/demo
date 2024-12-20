@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+.boxline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxline div {
+    border: 2px solid black;
+    height: 120px;
+    width: 120px;
+    border-radius: 14px;
+    margin: 10px;
+
+}
+
+#a {
+    background-color: antiquewhite;
+}
+
+#b {
+    background-color: cyan;
+}
+
+#c {
+    background-color: burlywood;
+}
+
+#d {
+    background-color: cadetblue;
+}
+
+#a:active {
+    background-color: white;
+}
+
+#b:active {
+    background-color: white;
+}
+
+#c:active {
+    background-color: white;
+}
+
+#d:active {
+    background-color: white;
+}
+
+.flash {
+    background-color: yellow;
+    transition: background-color 0.3s ease;
+}
